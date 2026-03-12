@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# environments
+.venv/
+.conda/
+env/
+
+# VS Code
+.vscode/
+
+# data
+*.csv
+*.pkl
+*.h5
