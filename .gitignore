@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+env/
+venv/
+student_perf_env/
+conda-meta/
+
+# Global Models & Data (Catches anything you might miss)
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+
+# Project-Specific Model Folders
+app_model/
+app_model_v*/
+model_oversampled/
+data/app_model/
+data/app_model_v*/
+# Project-Specific Model Folders
+app_model/
+app_model_v*/
+app_model_colab*/      e!
+model_oversampled/
+
+# Project-Specific Report & Asset Folders
+report_assets/
+report_assets_oversampled/
+report_assets_v*/
+data/report_assets/
+data/report_assets_v*/
+
+# Database
+*.sqlite3
+
+# Secrets
+.env
